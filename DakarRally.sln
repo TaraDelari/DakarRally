@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DakarRally.Api", "DakarRally.Api\DakarRally.Api.csproj", "{F7CD225E-4441-4214-A75F-C5C0D3F71101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entry", "Entry", "{C86A35AA-AA34-4CC2-8299-10DCC9EEACF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{1E3C211F-2488-42D6-A3FD-BDE496107A81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{66558437-7F43-456F-B5A7-E8BF49E23830}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DakarRally.Infrastructure", "DakarRally.Infrastructure\DakarRally.Infrastructure.csproj", "{A82593DE-8B22-4663-A026-01155D7942E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7215E0CB-08EC-45FD-B2CE-698EA3EB27C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DakarRally.Core", "DakarRally.Core\DakarRally.Core.csproj", "{16156EC5-2C22-4B8B-B648-168990983CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DakarRally.Core.UnitTests", "DakarRally.Core.UnitTests\DakarRally.Core.UnitTests.csproj", "{011559CD-2E4E-4EFF-A7E0-F185720FE98E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7CD225E-4441-4214-A75F-C5C0D3F71101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CD225E-4441-4214-A75F-C5C0D3F71101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CD225E-4441-4214-A75F-C5C0D3F71101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CD225E-4441-4214-A75F-C5C0D3F71101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82593DE-8B22-4663-A026-01155D7942E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82593DE-8B22-4663-A026-01155D7942E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82593DE-8B22-4663-A026-01155D7942E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82593DE-8B22-4663-A026-01155D7942E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16156EC5-2C22-4B8B-B648-168990983CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16156EC5-2C22-4B8B-B648-168990983CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16156EC5-2C22-4B8B-B648-168990983CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16156EC5-2C22-4B8B-B648-168990983CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011559CD-2E4E-4EFF-A7E0-F185720FE98E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011559CD-2E4E-4EFF-A7E0-F185720FE98E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011559CD-2E4E-4EFF-A7E0-F185720FE98E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011559CD-2E4E-4EFF-A7E0-F185720FE98E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7CD225E-4441-4214-A75F-C5C0D3F71101} = {C86A35AA-AA34-4CC2-8299-10DCC9EEACF6}
+		{A82593DE-8B22-4663-A026-01155D7942E2} = {66558437-7F43-456F-B5A7-E8BF49E23830}
+		{16156EC5-2C22-4B8B-B648-168990983CFA} = {1E3C211F-2488-42D6-A3FD-BDE496107A81}
+		{011559CD-2E4E-4EFF-A7E0-F185720FE98E} = {7215E0CB-08EC-45FD-B2CE-698EA3EB27C7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D767E1A3-A3CF-4DDA-A076-446E4EB43BFF}
+	EndGlobalSection
+EndGlobal
